@@ -1,0 +1,142 @@
+.text_opacity{
+    opacity: 0.8;
+}
+.section1{
+    background-image: linear-gradient(to right, rgb(5, 79, 122) ,rgb(90, 185, 200));
+    color: white;
+}
+form{
+    background-color: rgb(66, 185, 253,0.3); 
+    width: 90%;
+    margin-left: 25px;
+}
+.button_submit{
+    background-color: orange;
+    border: 0;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.div_box{
+    margin: 10px;
+    padding: 1rem;
+}
+.div_box2{
+    margin: 10%;
+}
+section#section1 {
+    color: #111111;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 50px;
+}
+section#section2 {
+    color: #111111;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.fa-solid{
+    font-size: 50px;
+    opacity: 0.8;
+}
+section#section3 {
+    color: gray;
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    padding-top: 50px;
+}
+#div_display{
+    display: none;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+form input{
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+#form_text{
+    font-size: 10px;
+    padding: 10px;
+}
+#form_label{
+    padding: 10px; 
+}
+section h6,h2,h1,p,label{
+    opacity: 0.8;
+}
+/* mobile*/
+@media only screen and (max-width: 600px){
+    body{
+        max-width: 500px;
+        text-align: center;
+    }
+    .div_box{
+        margin: 0;
+    }
+    .text-grayish{
+        margin: 0;
+        padding: 20px;
+    }
+    .col-1{
+        display: none;
+    }
+    .div_box{
+        display: block;
+    }
+    .row{
+        display: block;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+        text-align: left;
+        margin-left: 40px;
+    }
+    #div_display{
+        display: block;
+    }
+    #div_display button{
+        background-color: orange;
+        width: 70%;
+        height: 40px;
+        border: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        justify-content: center; 
+        font-size: 15px; 
+    }
+    .container-fluid.div_nav{
+        justify-content: center;
+    }
+    .section1 .div_box h6{
+        margin-bottom: 0;
+    }
+    .section1 .div_box .section1_p {
+        text-align: left;
+        margin-left: 40px;
+    }
+    .div_form{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .div_font{
+        font-size: 15px;
+        opacity: 1;
+    }
+}
